@@ -3,16 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Multi-agents Systems's documentation!
+Intelligent agents in Distributed Systems
 ================================================
-
-Contents:
 
 Multi-Agents 
 ============
+Multi-agent systems are systems composed by a number of agents interacting through an environment. Therefore it covers anything from computer interacting in a network to the financial market. Here we will try to focus on the distributed aspect of those systems and also it's applications in Computer Science.
 
-What is it?
--------------
+Now that we know what is a Multi-Agent System (MAS) we need to explain what an agent is. An agent have the following properties:
+    * It have some degree of autonomy
+    * It must be decentralized
+    * It have a limited view/understanding of the world (local view)
+    * It might be purposeful
+        * If an agent doesn't seek a goal we call it a passive agent
+        * If the agent have a goal we call it an active agent
+            * Active agents can be clustered as rationals if they always act optimally or irrationals if they don't. 
+            * A purposeful agent might follow simple reasoning rules or complex reasoning calculations, or even be behavioral (act in a more natural way)
+
+There is a concept that have a considerable intersection with MAS that is Agent-Based Models (ABM). ABM's are models of systems involving many agents, usually those agents follow simple rules (thanks to the KISS way of thinking, Keep It Simple Stupid!).
+
 Applications
 ============
 
