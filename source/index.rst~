@@ -63,27 +63,33 @@ Contributions from other sciences (besides computer science)
 
 Complex and unexpected behavior - The Corrupted Blood Incident
 --------------------------------------------------------------
-On September 13, 2005 an mortal disease caused by Hakkar's curse spread out of control devastating the biggest towns in World of Warcraft, the worldwide MMORG. It was caused by a bug, the disease was intended to kill the players characters in a specific area (Zul'Gurub) but due it's easy to spread and the fact that minions and pets could be infected allowed the disease to went out of control.
+On September 13, 2005 an mortal disease caused by Hakkar's curse spread out of control devastating the biggest towns in Azeroth, World of Warcraft, the worldwide MMORPG. It was caused by a bug, the disease was intended to kill the players characters in a specific area (Zul'Gurub) but due it's easy to spread and the fact that minions and pets could be infected allowed the disease to went out of control.
 
-Many epidemiologist think it was an interesting (although accidental) study case, because the current models use mathematical rules to simulate human behavior, what is not so accurate. In this event we were able to see that many players with healing abilities volunteered to help the infected ones, some players (afterwards called the World of Warcraft terrorists) found creative ways to spread the disease faster and thus cause even more destruction.
+Many epidemiologists think it was an interesting (although accidental) study case, because the current models use mathematical rules to simulate human behavior, what is not so accurate. In this event we were able to see that many players with healing abilities volunteered to help the infected ones, some players (afterwards called the World of Warcraft terrorists) found creative ways to spread the disease faster and thus cause even more destruction.
 
-It is an awesome example of how a small change in a Multi-Agent System can lead to a instability situation, not due to the program but due to the system itself. The bug doesn't escaped out of control due to a player (human) interference but the non-players characters itselves.
+It is an awesome example of how a small change in a Multi-Agent System can lead to a instability situation, not due to the program but due to the system itself. The bug didn't escape out of control due to a player (human) interference but due the non-players characters itself.
 
 Example of cool application - Semantic Web
 ------------------------------------------
 
+
+
 Bibliography
 ============
 
-http://www.springer.com/computer/swe/book/978-0-387-24568-3
-http://en.wikipedia.org/wiki/Multi-agent_system
-http://en.wikipedia.org/wiki/Corrupted_Blood_incident
-http://www.slideshare.net/ToniMorenoURV/introduction-to-agents-and-multiagent-systems
+#. http://www.springer.com/computer/swe/book/978-0-387-24568-3
+#. http://en.wikipedia.org/wiki/Multi-agent_system
+#. http://en.wikipedia.org/wiki/Corrupted_Blood_incident
+#. http://news.bbc.co.uk/2/hi/technology/4272418.stm
+#. http://en.wikipedia.org/wiki/Semantic_Web
+#. http://www.w3.org/standards/semanticweb/
+#. http://semanticweb.org/wiki/Main_Page
+#. http://www.slideshare.net/ToniMorenoURV/introduction-to-agents-and-multiagent-systems
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth:
 
-Indices and tables
+Indice
 ==================
 
 * :ref:`genindex`
