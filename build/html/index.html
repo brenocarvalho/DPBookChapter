@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Multi-Agent Systems &mdash; Multi-agents Systems 1 documentation</title>
+    <title>Intelligent agents in Distributed Systems &mdash; Multi-agents Systems 1 documentation</title>
     
     <link rel="stylesheet" href="_static/default.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -42,16 +42,17 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="multi-agent-systems">
-<h1>Multi-Agent Systems<a class="headerlink" href="#multi-agent-systems" title="Permalink to this headline">¶</a></h1>
-</div>
+  <div class="section" id="intelligent-agents-in-distributed-systems">
+<h1>Intelligent agents in Distributed Systems<a class="headerlink" href="#intelligent-agents-in-distributed-systems" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="multi-agents">
-<h1>Multi-Agents<a class="headerlink" href="#multi-agents" title="Permalink to this headline">¶</a></h1>
-<p>Multi-agent systems are systems composed by a number of agents interacting through an environment. Therefore it covers anything from computer interacting in a network to the financial market. Here we will try to focus on the distributed aspect of those systems and also it&#8217;s applications in Computer Science.</p>
+<h2>Multi-Agents<a class="headerlink" href="#multi-agents" title="Permalink to this headline">¶</a></h2>
+<p>Multi-Agent Systems are systems composed by a number of agents interacting through an environment. Therefore it covers anything from computer interacting in a network to the financial market. Here we will try to focus on the distributed aspect of those systems and also it&#8217;s applications in Computer Science.</p>
 <dl class="docutils">
 <dt>Now that we know what is a Multi-Agent System (MAS) we need to explain what an agent is. An agent have the following properties:</dt>
 <dd><ul class="first last">
 <li><p class="first">It have some degree of autonomy</p>
+</li>
+<li><p class="first">It must be decentralized</p>
 </li>
 <li><p class="first">It have a limited view/understanding of the world (local view)</p>
 </li>
@@ -76,48 +77,67 @@
 </ul>
 </dd>
 </dl>
+<p>There is a concept that have a considerable intersection with MAS that is Agent-Based Models (ABM). ABM&#8217;s are models of systems involving many agents, usually those agents follow simple rules (thanks to the KISS way of thinking, Keep It Simple Stupid!). The biggest difference here is that ABM are used to understand complex behavior that comes from simple pieces working together, those models are created to understand a phenomena while MAS are created to solve some problem.</p>
 </div>
 <div class="section" id="applications">
-<h1>Applications<a class="headerlink" href="#applications" title="Permalink to this headline">¶</a></h1>
+<h2>Applications<a class="headerlink" href="#applications" title="Permalink to this headline">¶</a></h2>
+<p>Multi-agent system have applications in many fields. In science we usually work with ABM, because we try to explain certain phenomena and predict others. In engineering we use MAS to create all kind of solutions. Internet and any computer network can be seen as a multi-agent system as long it is not a single process monopolizing the machines.</p>
 </div>
 <div class="section" id="virtues">
-<h1>Virtues<a class="headerlink" href="#virtues" title="Permalink to this headline">¶</a></h1>
-</div>
-<div class="section" id="limitations">
-<h1>Limitations<a class="headerlink" href="#limitations" title="Permalink to this headline">¶</a></h1>
+<h2>Virtues<a class="headerlink" href="#virtues" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Multi-Agent Systems have some intrinsic advantages over monolithic systems (system with only one agent):</dt>
+<dd><ul class="first last simple">
+<li>Scalable</li>
+<li>Usually fast self-recovery and fault tolerance due to the redundancy of the components</li>
+<li>This kind of systems also tend to be flexible, because it&#8217;s easy to add or modify an agent.</li>
+<li>Self-organization and self-steering (even with simple agents)</li>
+<li>When talking about simulation, it&#8217;s parallel and/or distributed implementation usually is straight forward</li>
+</ul>
+</dd>
+</dl>
 </div>
 <div class="section" id="drawbacks">
-<h1>Drawbacks<a class="headerlink" href="#drawbacks" title="Permalink to this headline">¶</a></h1>
-</div>
-<div class="section" id="formal-definition">
-<h1>Formal definition<a class="headerlink" href="#formal-definition" title="Permalink to this headline">¶</a></h1>
+<h2>Drawbacks<a class="headerlink" href="#drawbacks" title="Permalink to this headline">¶</a></h2>
+<p>It can be processing intensive, and not all problems are easily seen as multi-agent problems. Moreover some systems can become complex and lead us to some unpredictable results (See the Corrupted Blood Incident bellow).</p>
 </div>
 <div class="section" id="artificial-intelligence-problems-approached-with-this-concept">
-<h1>Artificial intelligence, problems approached with this concept<a class="headerlink" href="#artificial-intelligence-problems-approached-with-this-concept" title="Permalink to this headline">¶</a></h1>
+<h2>Artificial intelligence, problems approached with this concept<a class="headerlink" href="#artificial-intelligence-problems-approached-with-this-concept" title="Permalink to this headline">¶</a></h2>
+<p>Classic Artificial Intelligence doesn&#8217;t deal with the &#8220;social&#8221; aspect of agents. In the classic view there is just the agent and the outside world, thus we just concern about creating an agent to perform a specific task.</p>
 </div>
 <div class="section" id="how-to-implement-this">
-<h1>How to implement this?<a class="headerlink" href="#how-to-implement-this" title="Permalink to this headline">¶</a></h1>
+<h2>How to implement this?<a class="headerlink" href="#how-to-implement-this" title="Permalink to this headline">¶</a></h2>
+<p>We have many languages out there, but still need a more robust and general framework and test units.</p>
+</div>
 </div>
 <div class="section" id="what-programing-languages-have-been-developed-to-implement-those-concepts">
 <h1>What programing languages have been developed to implement those concepts<a class="headerlink" href="#what-programing-languages-have-been-developed-to-implement-those-concepts" title="Permalink to this headline">¶</a></h1>
-</div>
 <div class="section" id="applications-in-other-sciences">
-<h1>Applications in other sciences<a class="headerlink" href="#applications-in-other-sciences" title="Permalink to this headline">¶</a></h1>
+<h2>Applications in other sciences<a class="headerlink" href="#applications-in-other-sciences" title="Permalink to this headline">¶</a></h2>
+<p>Multi-Agent Systems aren&#8217;t restricted only to the Computer Science domain, it is also sedimented in other fields of knowledge like Economics, Ecology, Logic and even Social Sciences.</p>
 </div>
-<div class="section" id="contributions-form-other-sciences-besides-computer-science">
-<h1>Contributions form other sciences (besides computer science)<a class="headerlink" href="#contributions-form-other-sciences-besides-computer-science" title="Permalink to this headline">¶</a></h1>
 </div>
-<div class="section" id="example-of-cool-application">
-<h1>Example of cool application<a class="headerlink" href="#example-of-cool-application" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="contributions-from-other-sciences-besides-computer-science">
+<h1>Contributions from other sciences (besides computer science)<a class="headerlink" href="#contributions-from-other-sciences-besides-computer-science" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="complex-and-unexpected-behavior-the-corrupted-blood-incident">
+<h2>Complex and unexpected behavior - The Corrupted Blood Incident<a class="headerlink" href="#complex-and-unexpected-behavior-the-corrupted-blood-incident" title="Permalink to this headline">¶</a></h2>
+<p>On September 13, 2005 an mortal disease caused by Hakkar&#8217;s curse spread out of control devastating the biggest towns in World of Warcraft, the worldwide MMORG. It was caused by a bug, the disease was intended to kill the players characters in a specific area (Zul&#8217;Gurub) but due it&#8217;s easy to spread and the fact that minions and pets could be infected allowed the disease to went out of control.</p>
+<p>Many epidemiologist think it was an interesting (although accidental) study case, because the current models use mathematical rules to simulate human behavior, what is not so accurate. In this event we were able to see that many players with healing abilities volunteered to help the infected ones, some players (afterwards called the World of Warcraft terrorists) found creative ways to spread the disease faster and thus cause even more destruction.</p>
+<p>It is an awesome example of how a small change in a Multi-Agent System can lead to a instability situation, not due to the program but due to the system itself. The bug doesn&#8217;t escaped out of control due to a player (human) interference but the non-players characters itselves.</p>
+</div>
+<div class="section" id="example-of-cool-application-semantic-web">
+<h2>Example of cool application - Semantic Web<a class="headerlink" href="#example-of-cool-application-semantic-web" title="Permalink to this headline">¶</a></h2>
+</div>
 </div>
 <div class="section" id="bibliography">
 <h1>Bibliography<a class="headerlink" href="#bibliography" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="http-www-springer-com-computer-swe-book-978-0-387-24568-3">
-<h2><a class="reference external" href="http://www.springer.com/computer/swe/book/978-0-387-24568-3">http://www.springer.com/computer/swe/book/978-0-387-24568-3</a><a class="headerlink" href="#http-www-springer-com-computer-swe-book-978-0-387-24568-3" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://www.springer.com/computer/swe/book/978-0-387-24568-3">http://www.springer.com/computer/swe/book/978-0-387-24568-3</a>
+<a class="reference external" href="http://en.wikipedia.org/wiki/Multi-agent_system">http://en.wikipedia.org/wiki/Multi-agent_system</a>
+<a class="reference external" href="http://en.wikipedia.org/wiki/Corrupted_Blood_incident">http://en.wikipedia.org/wiki/Corrupted_Blood_incident</a>
+<a class="reference external" href="http://www.slideshare.net/ToniMorenoURV/introduction-to-agents-and-multiagent-systems">http://www.slideshare.net/ToniMorenoURV/introduction-to-agents-and-multiagent-systems</a></p>
 <div class="toctree-wrapper compound">
 <ul class="simple">
 </ul>
-</div>
 </div>
 </div>
 <div class="section" id="indices-and-tables">
@@ -137,23 +157,25 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="#">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Multi-Agent Systems</a></li>
+<li><a class="reference internal" href="#">Intelligent agents in Distributed Systems</a><ul>
 <li><a class="reference internal" href="#multi-agents">Multi-Agents</a></li>
 <li><a class="reference internal" href="#applications">Applications</a></li>
 <li><a class="reference internal" href="#virtues">Virtues</a></li>
-<li><a class="reference internal" href="#limitations">Limitations</a></li>
 <li><a class="reference internal" href="#drawbacks">Drawbacks</a></li>
-<li><a class="reference internal" href="#formal-definition">Formal definition</a></li>
 <li><a class="reference internal" href="#artificial-intelligence-problems-approached-with-this-concept">Artificial intelligence, problems approached with this concept</a></li>
 <li><a class="reference internal" href="#how-to-implement-this">How to implement this?</a></li>
-<li><a class="reference internal" href="#what-programing-languages-have-been-developed-to-implement-those-concepts">What programing languages have been developed to implement those concepts</a></li>
-<li><a class="reference internal" href="#applications-in-other-sciences">Applications in other sciences</a></li>
-<li><a class="reference internal" href="#contributions-form-other-sciences-besides-computer-science">Contributions form other sciences (besides computer science)</a></li>
-<li><a class="reference internal" href="#example-of-cool-application">Example of cool application</a></li>
-<li><a class="reference internal" href="#bibliography">Bibliography</a><ul>
-<li><a class="reference internal" href="#http-www-springer-com-computer-swe-book-978-0-387-24568-3">http://www.springer.com/computer/swe/book/978-0-387-24568-3</a><ul>
 </ul>
 </li>
+<li><a class="reference internal" href="#what-programing-languages-have-been-developed-to-implement-those-concepts">What programing languages have been developed to implement those concepts</a><ul>
+<li><a class="reference internal" href="#applications-in-other-sciences">Applications in other sciences</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#contributions-from-other-sciences-besides-computer-science">Contributions from other sciences (besides computer science)</a><ul>
+<li><a class="reference internal" href="#complex-and-unexpected-behavior-the-corrupted-blood-incident">Complex and unexpected behavior - The Corrupted Blood Incident</a></li>
+<li><a class="reference internal" href="#example-of-cool-application-semantic-web">Example of cool application - Semantic Web</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#bibliography">Bibliography</a><ul>
 </ul>
 </li>
 <li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
