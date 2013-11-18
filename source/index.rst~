@@ -8,6 +8,11 @@ Intelligent agents in Distributed Systems
 
 Multi-Agents 
 ------------
+
+.. figure:: _img/mas_model.jpg
+   :scale: 70%
+   :align: right
+   :alt: Multi-Agent System
 Multi-Agent Systems are systems composed by a number of agents interacting through an environment. Therefore it covers anything from computer interacting in a network to the financial market. Here we will try to focus on the distributed aspect of those systems and also it's applications in Computer Science.
 
 Now that we know what is a Multi-Agent System (MAS) we need to explain what an agent is. An agent have the following properties:
@@ -46,12 +51,17 @@ Drawbacks
 
 It can be processing intensive, and not all problems are easily seen as multi-agent problems. Moreover some systems can become complex and lead us to some unpredictable results (See the Corrupted Blood Incident bellow). Those systems usually reach an equilibrium (whether dynamic or static) and depending on the size of the system an undesired equilibrium can be hard to change.
 
-You might notice that MAS is a representation much more close to our world than the 
+You might notice that MAS is a representation much more close to our world than what we have done so far,  although it can be a virtue (cause allow us to better understand our environment) it is a problem due the complexity the system can achieve.
 
 
 Artificial intelligence, problems approached with this concept
 --------------------------------------------------------------
-Classic Artificial Intelligence doesn't deal with the "social" aspect of agents. In the classic view there is just the agent and the outside world, thus we just concern about creating an agent to perform a specific task.
+Classic Artificial Intelligence doesn't deal with the "social" aspect of agents. In the classic view there is just the agent and the outside world, thus we just concern about creating an agent to perform a specific task. When concerning about MAS we don't care seek to create an agent who interact with the world, instead we try to design an entire society of agents that work on the same environment and can cooperate or compete. Currently some problems are being faced with MAS:
+
+    * Automobiles steering
+    * Automated exploration
+    * Data mining
+    * Semantic Web or "data web"
 
 How to implement this?
 ----------------------
@@ -75,7 +85,7 @@ Complex and unexpected behavior - The Corrupted Blood Incident
 .. figure:: _img/Corrupted-Blood-incident-picture.jpg
    :scale: 50 %
    :align: right
-   :alt: map to buried treasure
+   :alt: Corrupted Blood Incident
 
 On September 13, 2005 an mortal disease caused by Hakkar's curse spread out of control devastating the biggest towns in Azeroth, World of Warcraft, the worldwide MMORPG. It was caused by a bug, the disease was intended to kill the players characters in a specific area (Zul'Gurub) but due it's easy to spread and the fact that minions and pets could be infected the disease went out of control.
 
@@ -93,6 +103,8 @@ Bibliography
 #. http://www.springer.com/computer/swe/book/978-0-387-24568-3
 #. Niazi, Muaz; Hussain, Amir (2011). "Agent-based Computing from Multi-agent Systems to Agent-Based Models: A Visual Survey"
 #. "Amazon.com: Artificial Intelligence: A Modern Approach (3rd Edition) (9780136042594)"
+#. http://multiagent.com/p/fundamentals-of-multiagent-systems.html
+#. http://www.cs.cmu.edu/~softagents/multi.html
 #. http://en.wikipedia.org/wiki/Corrupted_Blood_incident
 #. http://news.bbc.co.uk/2/hi/technology/4272418.stm
 #. http://www.w3.org/standards/semanticweb/
